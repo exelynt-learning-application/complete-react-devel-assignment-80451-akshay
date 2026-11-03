@@ -23,3 +23,116 @@ The main reasons developers use Git are:
 
 1. **Track Changes:** Git keeps a history of changes made to the project.
 2. **Backup Code:** Developers can store their code in a remote repository such as GitHub.
+3. **Branches:** Developers can create separate branches to work on new features without affecting the main project.
+4. **Collaboration:** Multiple developers can work on the same project.
+5. **Merge Changes:** Git allows developers to combine changes from different branches.
+6. **Revert Changes:** Developers can return to an earlier version if a new change causes a problem.
+7. **Identify Changes:** Git shows what was changed, when it was changed, and who made the change.
+
+Some commonly used Git commands are:
+
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git branch
+git checkout
+git merge
+git status
+git log
+git push
+git pull
+```
+
+Git makes software development more organized and helps teams safely manage their code.
+
+---
+
+## 3. Version Control Project Using Git & GitHub
+
+For this project, I created a project repository and used Git to manage its versions.
+
+### Steps Performed
+
+**Step 1: Create a Project**
+
+I created a simple project with the required project files and folders.
+
+**Step 2: Initialize Git**
+
+I initialized Git inside the project folder:
+
+```bash
+git init
+```
+
+**Step 3: Check Project Status**
+
+I checked the status of the files:
+
+```bash
+git status
+```
+
+**Step 4: Add Files**
+
+I added the project files to the staging area:
+
+```bash
+git add .
+```
+
+**Step 5: Create a Commit**
+
+I created a meaningful commit:
+
+```bash
+git commit -m "Initial project setup"
+```
+
+**Step 6: Create a Branch**
+
+I created a separate branch for development:
+
+```bash
+git branch feature
+git checkout feature
+```
+
+**Step 7: Make Changes**
+
+I made changes to the project on the feature branch and committed them:
+
+```bash
+git add .
+git commit -m "Add project feature"
+```
+
+**Step 8: Merge the Branch**
+
+After completing the feature, I merged the changes into the main branch:
+
+```bash
+git checkout main
+git merge feature
+```
+
+**Step 9: Create GitHub Repository**
+
+I created a remote repository on GitHub and connected my local Git repository to it.
+
+```bash
+git remote add origin <GitHub-Repository-URL>
+```
+
+**Step 10: Push the Project to GitHub**
+
+I pushed the project to GitHub:
+
+```bash
+git push -u origin main
+```
+
+### Conclusion
+
+Git provides version control for managing project changes, while GitHub provides an online platform for storing and collaborating on Git repositories. Using Git and GitHub makes it easier to track changes, create branches, collaborate with other developers, merge features, and maintain a reliable project history.
