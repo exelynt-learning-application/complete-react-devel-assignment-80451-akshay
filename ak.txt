@@ -1,12 +1,25 @@
-WHAT TO DO
+# Git & GitHub: Version Control Essentials for Developers
 
-What is Version Control?
+## 1. What is Version Control?
 
-Why developers use Git
+Version Control is a system used to track and manage changes made to files and source code over time. It allows developers to keep a history of their work and return to an earlier version if something goes wrong.
 
-Version Control Project using Git & GitHub
+Version control is useful because multiple developers can work on the same project without losing each other's changes. It also helps developers compare changes, identify who made a change, and maintain different versions of a project.
 
+There are two common types of version control systems:
 
-HOW IT'S GRADED
+- **Centralized Version Control:** A central server stores the project and developers work with that central repository.
+- **Distributed Version Control:** Every developer has a complete copy of the repository, including its history.
 
-Git & GitHub: Version Control Essentials for Developers — 100%
+**Git** is an example of a distributed version control system.
+
+---
+
+## 2. Why Developers Use Git
+
+Developers use Git to manage source code and track changes during software development.
+
+The main reasons developers use Git are:
+
+1. **Track Changes:** Git keeps a history of changes made to the project.
+2. **Backup Code:** Developers can store their code in a remote repository such as GitHub.
