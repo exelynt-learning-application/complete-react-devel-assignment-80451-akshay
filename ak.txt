@@ -1,0 +1,12 @@
+WHAT TO DO
+
+What is Version Control?
+
+Why developers use Git
+
+Version Control Project using Git & GitHub
+
+
+HOW IT'S GRADED
+
+Git & GitHub: Version Control Essentials for Developers — 100%
